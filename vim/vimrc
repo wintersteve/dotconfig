@@ -1,0 +1,22 @@
+call plug#begin()
+Plug 'tpope/vim-sensible'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'tpope/vim-surround'
+Plug 'mileszs/ack.vim'
+Plug 'terryma/vim-multiple-cursors'
+Plug 'prettier/vim-prettier', {
+	  \ 'do': 'yarn install --frozen-lockfile --production',
+	    \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'svelte', 'yaml', 'html'] }
+call plug#end()
+
+let g:airline_theme='minimalist'
+
+let g:loaded_matchparen=1
+
+set number 
+set incsearch
+
+let mapleader = ","
+
+map <Leader>c "*y

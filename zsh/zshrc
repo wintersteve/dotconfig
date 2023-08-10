@@ -1,0 +1,5 @@
+export PATH="$PATH:/opt/bin"
+
+CONFIGDIR="${ZDOTDIR:-$HOME}/.config/zsh"
+
+source "${CONFIGDIR}/keybindings.zsh"
