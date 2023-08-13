@@ -8,3 +8,6 @@ export PATH=$PATH:/opt/homebrew/bin
 # export webstorm
 export PATH=$PATH:/Applications/WebStorm.app/Contents/MacOS
 
+# export custom scripts
+mkdir /opt/bin/
+export PATH=$PATH:/opt/bin
