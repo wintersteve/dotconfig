@@ -16,3 +16,6 @@ source ./tools/vim.sh
 
 # ITERM2
 source ./tools/iterm.sh
+
+# TMUX
+source ./tools/tmux.sh
