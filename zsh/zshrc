@@ -1,5 +1,10 @@
-export PATH="$PATH:/opt/bin"
-
 CONFIGDIR="${ZDOTDIR:-$HOME}/.config/zsh"
 
 source "${CONFIGDIR}/keybindings.zsh"
+
+# export homebrew
+export PATH=$PATH:/opt/homebrew/bin
+
+# export webstorm
+export PATH=$PATH:/Applications/WebStorm.app/Contents/MacOS
+
