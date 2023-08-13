@@ -25,3 +25,6 @@ source ./tools/yabai.sh
 
 # SKHD
 source ./tools/skhd.sh
+
+# OH-MY-POSH
+source ./tools/oh-my-posh.sh
