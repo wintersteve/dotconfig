@@ -1,6 +1,6 @@
-CONFIGDIR="${ZDOTDIR:-$HOME}/.config/zsh"
+CONFIG_DIR="${ZDOTDIR:-$HOME}/.config/zsh"
 
-source "${CONFIGDIR}/keybindings.zsh"
+source "${CONFIG_DIR}/keybindings.zsh"
 
 # export homebrew
 export PATH=$PATH:/opt/homebrew/bin
