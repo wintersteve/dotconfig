@@ -2,6 +2,9 @@ sudo -v
 
 cd ~/.config
 
+# ZSH
+source ./tools/zsh.sh
+
 # HOMEBREW
 source ./tools/homebrew.sh
 
@@ -10,9 +13,6 @@ source ./tools/git.sh
 
 # VIM
 source ./tools/vim.sh
-
-# ZSH 
-source ./tools/zsh.sh
 
 # ITERM2
 source ./tools/iterm.sh
