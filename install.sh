@@ -19,3 +19,6 @@ source ./tools/iterm.sh
 
 # TMUX
 source ./tools/tmux.sh
+
+# YABAI
+source ./tools/yabai.sh
