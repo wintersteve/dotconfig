@@ -22,3 +22,6 @@ source ./tools/tmux.sh
 
 # YABAI
 source ./tools/yabai.sh
+
+# SKHD
+source ./tools/skhd.sh
