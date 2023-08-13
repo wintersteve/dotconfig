@@ -1,5 +1,7 @@
 sudo -v
 
+cd ~/.config
+
 # HOMEBREW
 source ./tools/homebrew.sh
 
