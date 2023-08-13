@@ -1,30 +1,30 @@
 sudo -v
 
-cd ~/.config
+cd ~/.config/tools
 
 # ZSH
-source ./tools/zsh.sh
+source ./zsh.sh
 
 # HOMEBREW
-source ./tools/homebrew.sh
+source ./homebrew.sh
 
 # GIT
-source ./tools/git.sh
+source ./git.sh
 
 # VIM
-source ./tools/vim.sh
+source ./vim.sh
 
 # ITERM2
-source ./tools/iterm.sh
+source ./iterm.sh
 
 # TMUX
-source ./tools/tmux.sh
+source ./tmux.sh
 
 # YABAI
-source ./tools/yabai.sh
+source ./yabai.sh
 
 # SKHD
-source ./tools/skhd.sh
+source ./skhd.sh
 
 # OH-MY-POSH
-source ./tools/oh-my-posh.sh
+source ./oh-my-posh.sh
